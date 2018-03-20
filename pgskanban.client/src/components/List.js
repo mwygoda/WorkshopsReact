@@ -10,7 +10,7 @@ export default class List extends Component {
     
     render() {
         return(
-            <div style={{background: 'green', paddingBottom:'10px'}}>
+            <div style={{background: 'yellow', paddingBottom:'10px'}}>
                 {this.props.listName}
                 {this.renderCards()}
             </div>
